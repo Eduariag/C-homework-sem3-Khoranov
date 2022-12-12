@@ -1,4 +1,7 @@
-﻿double Distance (double xA, double yA, double zA, double xB, double yB, double zB)
+﻿//Напишите программу, которая принимает на вход координаты
+// двух точек и находит расстояние между ними в 3D пространстве.
+/*
+double Distance (double xA, double yA, double zA, double xB, double yB, double zB)
 {
 double length=Math.Sqrt(Math.Pow(xB-xA,2)+Math.Pow(yB-yA,2)+Math.Pow(zB-zA,2));
 return Math.Round(length,2);
@@ -25,5 +28,25 @@ double zB= Convert.ToDouble(Console.ReadLine());
 double distanceAB = Distance (xA, yA, zA, xB, yB, zB);
 
 Console.WriteLine($" Distance A and B is {distanceAB}");
+*/
 
+
+//Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+/*
+void Cubes (int number)
+{
+    int counter=1;
+    while(counter<=number)
+    {
+        Console.Write($"{Math.Pow(counter, 3)}");
+        if (counter !=number) Console.Write(" , ");
+        counter++;
+    }
+}
+Console.Write("Input  int number:   ");
+int num=Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("The cubes of numbers:  ");
+Cubes (num);
+*/
 
